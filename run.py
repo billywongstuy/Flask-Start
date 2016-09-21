@@ -8,6 +8,7 @@ def helloworld():
 @app.route("/secret")
 def secsec():
     return '''
+    <!DOCTYPE html>
     <html>
     <body>
     Hello! Can you read this?
